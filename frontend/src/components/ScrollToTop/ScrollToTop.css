@@ -1,0 +1,17 @@
+.scroll__link {
+  position: fixed;
+  right: calc(50% - 25px);
+  width: 44px;
+  bottom: 18px;
+  z-index: 999;
+}
+
+.scroll__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.scroll__button-top {
+  width: 44px;
+  height: 44px;
+}

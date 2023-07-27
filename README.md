@@ -11,7 +11,8 @@
 - https://disk.yandex.ru/d/WuW0eanZhUdSdw
 
 ## Сcылка на репозиторий:
-- 
+
+- https://anna-gorgulenko.github.io/movies-explorer-diploma/
 
 ## Ccылка на проекта и IP
 
