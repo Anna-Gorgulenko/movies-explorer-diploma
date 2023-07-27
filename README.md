@@ -14,6 +14,10 @@
 
 - https://anna-gorgulenko.github.io/movies-explorer-diploma/
 
+## Сcылка на пулреквест:
+
+- https://github.com/Anna-Gorgulenko/movies-explorer-diploma/pull/1
+
 ## Ccылка на проекта и IP
 
 IP 158.160.0.70
