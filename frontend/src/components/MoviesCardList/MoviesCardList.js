@@ -7,6 +7,7 @@ import {
   DESKTOP_CARDS_DISPLAY_LIMIT,
   TABLET_CARDS_DISPLAY_LIMIT,
   MOBILE_CARDS_DISPLAY_LIMIT,
+  display
 } from "../../utils/constants"
 import Preloader from "../Preloader/Preloader"
 
@@ -33,7 +34,7 @@ function MoviesCardList({
   // Отображает количество карточек на разных разрешениях экрана, таких как
   // (Дисктоп версия, планшет версия, мобильные устройства)
   function setMoviesShownCount() {
-    const display = window.innerWidth
+    //const display = window.innerWidth
     if (display > 1180) {
       setShownMovies(12) // 12 карточек с фильмами
     } else if (display > 767) {
@@ -56,10 +57,10 @@ function MoviesCardList({
   // Добавляю количество карточек с фильмами при нажатии на кнопку "Ещё"
   // на разных разрешениях экрана
   function expandMoviesDisplay() {
-    const display = window.innerWidth
+   // const display = window.innerWidth
     if (display > 1180) {
       setShownMovies(shownMovies + DESKTOP_CARDS_DISPLAY_LIMIT) // 3 карточки
-    } else if (display > 767) {
+    } else if (display > 768) {
       setShownMovies(shownMovies + TABLET_CARDS_DISPLAY_LIMIT) // 2 карточки
     } else {
       setShownMovies(shownMovies + MOBILE_CARDS_DISPLAY_LIMIT) // 2 карточки

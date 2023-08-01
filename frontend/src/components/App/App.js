@@ -76,7 +76,7 @@ function App() {
           console.log(err)
         })
     }
-  }, [isLoggedIn, navigate])
+  }, [isLoggedIn])
 
   // регистрация пользователя
   function handleRegistrationUser({ name, email, password }) {

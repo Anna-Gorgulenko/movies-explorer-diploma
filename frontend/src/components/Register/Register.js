@@ -83,3 +83,6 @@ function Register({ isLoading, onRegister }) {
 }
 
 export default Register
+
+
+

@@ -1,6 +1,6 @@
 const allowedCors = [
-  'https://diplomgorgulenko.nomoreparties.sbs',
-  'http://diplomgorgulenko.nomoreparties.sbs',
+  'https://gorgulenko.nomoredomains.rocks',
+  'http://gorgulenko.nomoredomains.rocks',
   'https://localhost:3000',
   'http://localhost:3000',
   'https://localhost:3001',
