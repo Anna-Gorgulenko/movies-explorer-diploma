@@ -1,6 +1,6 @@
 import React, { useEffect, useContext, useState } from "react"
 import CurrentUserContext from "../../contexts/CurrentUserContext"
-import useForm from "../hooks/useForm"
+import useForm from "../../hooks/useForm"
 import Header from "../Header/Header"
 import { EMAIL_VALIDATOR, USERNAME_VALIDATOR } from "../../utils/constants"
 import "./Profile.css"
