@@ -1,8 +1,8 @@
 import { handleSendingRequest } from "./utils"
 
-//export const BASE_URL = 'https://api.diplomgorgulenko.nomoreparties.sbs';
+export const BASE_URL = 'https://api.diplomgorgulenko.nomoreparties.sbs';
 
-export const BASE_URL = "http://localhost:3000"
+//export const BASE_URL = "http://localhost:3000"
 
 // Регистрация пользователя на сайте
 export const register = (name, email, password) => {
