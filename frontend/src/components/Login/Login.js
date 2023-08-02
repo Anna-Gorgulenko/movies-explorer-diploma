@@ -1,7 +1,7 @@
 import React from "react"
 import Form from "../Form/Form"
 import { EMAIL_VALIDATOR } from "../../utils/constants"
-import useForm from "../hooks/useForm"
+import useForm from "../../hooks/useForm"
 import "../Form/Form.css"
 
 // Компонент Login
